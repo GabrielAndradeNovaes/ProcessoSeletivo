@@ -6,9 +6,11 @@ public class App {
 		System.out.println();
 		String [] candidatos = {"FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO"};
 		for(String candidato: candidatos) {
-			entrandoEmContato(candidato);
+			entrandoEmContato(candidato);   
 		}
 	}
+
+	//review
 	static void entrandoEmContato(String candidato) {
 		int tentativasRealizadas = 1;
 		boolean continuarTentando = true;
